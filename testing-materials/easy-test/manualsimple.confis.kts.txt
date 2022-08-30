@@ -1,0 +1,13 @@
+Simple Contract Example
+Parties
+Alice Liddell of Imperial College (Alice).
+Bob from Sheffield (Bob).
+Definitions
+"the Data": Confidential non-anonymised customer data.
+"pay".
+"send": Email file to company inbox.
+Terms
+The Licence and the terms and conditions thereof shall be governed and construed in accordance with the law of England and Wales.
+Alice must pay Bob: from 01/06/2022 to 07/06/2022 inclusive.
+Alice may not pay Bob under the following circumstances: only after Alice did pay Bob.
+Bob must send the Data: only after Alice did pay Bob, from 07/06/2022 to 14/06/2022 inclusive.

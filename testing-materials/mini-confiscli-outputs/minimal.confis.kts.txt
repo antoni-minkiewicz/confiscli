@@ -1,0 +1,15 @@
+Minimal example
+
+1 - Parties
+
+1. alice.
+2 - Definitions
+
+1. "cookie".
+2. "eat".
+3 - Terms
+
+1. alice may eat cookie except under the following
+circumstances:
+
++ with Commercial purpose

@@ -1,0 +1,504 @@
+{
+    "parties": [
+        {
+            "val": "licensee",
+            "named": "the Licensee",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "transfer",
+            "named": "transfer",
+            "description": " "
+        },
+        {
+            "val": "sell",
+            "named": "sell",
+            "description": " "
+        },
+        {
+            "val": "provide",
+            "named": "provide",
+            "description": " "
+        },
+        {
+            "val": "adapt",
+            "named": "adapt",
+            "description": " "
+        },
+        {
+            "val": "become",
+            "named": "become",
+            "description": " "
+        },
+        {
+            "val": "access",
+            "named": "access",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "data",
+            "named": "the Data",
+            "description": " "
+        },
+        {
+            "val": " ",
+            "named": "    Parties",
+            "description": " "
+        },
+        {
+            "val": "member",
+            "named": "Another member",
+            "description": " "
+        },
+        {
+            "val": "licence",
+            "named": " this Licence",
+            "description": " "
+        },
+        {
+            "val": "services",
+            "named": "services",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "licensee",
+            "modal_verb": "mayNot",
+            "action_val": "transfer",
+            "object_thing_or_party_val": "licence",
+            "conditions": [
+                [
+                    "transfer this Licence except under the    following circumstances",
+                    "verb-with-preposition-and-pobj",
+                    351,
+                    360
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 347,
+            "end": 354,
+            "text": "the Licensee may not transfer this Licence",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "licensee",
+            "modal_verb": "may",
+            "action_val": "transfer",
+            "object_thing_or_party_val": "licence",
+            "conditions": [
+                [
+                    "transfer this Licence under the following  circumstances",
+                    "verb-with-preposition-and-pobj",
+                    373,
+                    381
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 370,
+            "end": 376,
+            "text": "the Licensee may transfer this Licence",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "licensee",
+            "modal_verb": "mayNot",
+            "action_val": "sell",
+            "object_thing_or_party_val": "data",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 391,
+            "end": 398,
+            "text": "the Licensee may not sell the Data",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "licensee",
+            "modal_verb": "mayNot",
+            "action_val": "sell",
+            "object_thing_or_party_val": "data",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausefive",
+            "start": 391,
+            "end": 398,
+            "text": "the Licensee may not sell the Data",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "licensee",
+            "modal_verb": "mayNot",
+            "action_val": "provide",
+            "object_thing_or_party_val": "services",
+            "conditions": [
+                [
+                    "provide services with the Data   a  rd party may access the Data under the following  circumstances     with the consent from the Licensee    only after a  rd party did agree to this Licence    only after a  rd party did agree to a confidentiality  agreement  the Licensee may not copy or adapt the Data except under the  following circumstances     with the consent from the Library    with Internal purpose",
+                    "verb-with-preposition-and-pobj",
+                    404,
+                    488
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 400,
+            "end": 406,
+            "text": "the Licensee may not provide services",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "licensee",
+            "modal_verb": "may",
+            "action_val": "adapt",
+            "object_thing_or_party_val": " ",
+            "conditions": [
+                [
+                    "adapt the Data under the following  circumstances",
+                    "verb-with-preposition-and-pobj",
+                    494,
+                    502
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefour",
+            "start": 489,
+            "end": 495,
+            "text": "the Licensee may copy or adapt",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "licensee",
+            "modal_verb": "may",
+            "action_val": "become",
+            "object_thing_or_party_val": "member",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausetwo",
+            "start": 517,
+            "end": 523,
+            "text": "the Licensee may become a member",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "group",
+            "modal_verb": "may",
+            "action_val": "access",
+            "object_thing_or_party_val": "data",
+            "conditions": [
+                [
+                    "access the Data  under the following circumstances     only after the Licensee did become a member of a Joint  Venture Group    only after a member of a Joint Venture Group did become  a member of a Joint Venture Group    with the consent",
+                    "verb-with-preposition-and-pobj",
+                    538,
+                    589
+                ],
+                [
+                    "agree to  this Licence",
+                    "verb-with-preposition-and-pobj",
+                    604,
+                    609
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 536,
+            "end": 541,
+            "text": "Group may access the Data",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "the Licensee may not transfer this Licence",
+                "clausetwo",
+                347,
+                354
+            ],
+            [
+                "transfer this Licence except under the    following circumstances",
+                "verb-with-preposition-and-pobj",
+                351,
+                360
+            ]
+        ],
+        [
+            [
+                "the Licensee may transfer this Licence",
+                "clausetwo",
+                370,
+                376
+            ],
+            [
+                "transfer this Licence under the following  circumstances",
+                "verb-with-preposition-and-pobj",
+                373,
+                381
+            ]
+        ],
+        [
+            [
+                "the Licensee may not sell the Data",
+                "clausethree",
+                391,
+                398
+            ]
+        ],
+        [
+            [
+                "the Licensee may not sell the Data",
+                "clausefive",
+                391,
+                398
+            ]
+        ],
+        [
+            [
+                "the Licensee may not provide services",
+                "clausetwo",
+                400,
+                406
+            ],
+            [
+                "provide services with the Data   a  rd party may access the Data under the following  circumstances     with the consent from the Licensee    only after a  rd party did agree to this Licence    only after a  rd party did agree to a confidentiality  agreement  the Licensee may not copy or adapt the Data except under the  following circumstances     with the consent from the Library    with Internal purpose",
+                "verb-with-preposition-and-pobj",
+                404,
+                488
+            ]
+        ],
+        [
+            [
+                "the Licensee may copy or adapt",
+                "clausefour",
+                489,
+                495
+            ],
+            [
+                "adapt the Data under the following  circumstances",
+                "verb-with-preposition-and-pobj",
+                494,
+                502
+            ]
+        ],
+        [
+            [
+                "the Licensee may become a member",
+                "clausetwo",
+                517,
+                523
+            ]
+        ],
+        [
+            [
+                "Group may access the Data",
+                "clausetwo",
+                536,
+                541
+            ],
+            [
+                "access the Data  under the following circumstances     only after the Licensee did become a member of a Joint  Venture Group    only after a member of a Joint Venture Group did become  a member of a Joint Venture Group    with the consent",
+                "verb-with-preposition-and-pobj",
+                538,
+                589
+            ],
+            [
+                "agree to  this Licence",
+                "verb-with-preposition-and-pobj",
+                604,
+                609
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "SUB - ",
+            "unknown type"
+        ],
+        [
+            "LICENCE FOR SEISMIC DATA   Seismic data acquired pursuant to operations conducted subject to the Petroleum Act 1998 and landward area regulations made in exercise of powers conferred thereby are Crown Copyright material . ",
+            "circumstance"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Library , pursuant to worldwide exclusive rights granted by the Controller hereby grants the Licensee a non - exclusive Licence to use the Data on the following terms   1 - Parties   1 . ",
+            "unknown type"
+        ],
+        [
+            "Oil & Gas Ltd ( the Licensee ) .   ",
+            "unknown type"
+        ],
+        [
+            "2 . The Controller of Her Majesty 's Stationery Office ( the   Controller ) .   ",
+            "unknown type"
+        ],
+        [
+            "UK Onshore Geophysical Library ( the Library ) .   ",
+            "unknown type"
+        ],
+        [
+            "UK Onshore Geophysical Library ( the Library ) .   not employed by the Licensee ( a 3rd party ) .   ",
+            "unknown type"
+        ],
+        [
+            "5 . ",
+            "unknown type"
+        ],
+        [
+            "Abona fide oil or gas bidding group , exploration group , or exploitation group ( a Joint Venture Group ) .   ",
+            "unknown type"
+        ],
+        [
+            "6 . ",
+            "unknown type"
+        ],
+        [
+            "Another member , other than the Licensee , of a Joint Venture Group ( a member of a Joint Venture Group ) .   ",
+            "unknown type"
+        ],
+        [
+            "2 - Definitions   Ro   1 . ",
+            "unknown type"
+        ],
+        [
+            "\" this Licence \" .   ",
+            "unknown type"
+        ],
+        [
+            "2 . \" the Data \" : seismic data listed in the Schedule .   ",
+            "unknown type"
+        ],
+        [
+            "3 . ",
+            "unknown type"
+        ],
+        [
+            "\" a confidentiality agreement \" .   ",
+            "unknown type"
+        ],
+        [
+            "4 . \" transfer \" .   ",
+            "unknown type"
+        ],
+        [
+            "5 . \" sell \" .   ",
+            "unknown type"
+        ],
+        [
+            "6 . \" provide services with \" : as in providing any service to any third party .   ",
+            "unknown type"
+        ],
+        [
+            "7 . \" access \" : as in gain obtain a copy of .   ",
+            "unknown type"
+        ],
+        [
+            "8 . \" agree to \" : to be bound by the terms of , to the same extend as the Licensee .   ",
+            "unknown type"
+        ],
+        [
+            "8 . \" agree to \" : to be bound by the terms of , to the same extend as the Licensee .   9 . ",
+            "unknown type"
+        ],
+        [
+            "\" copy or adapt \" : as in deriving data and statistics from , copying , or distributing .   ",
+            "unknown type"
+        ],
+        [
+            "10 . \" become a member of \" : as in to be to at any point hereafter become a member or operator of .   ",
+            "unknown type"
+        ],
+        [
+            "3- ",
+            "unknown type"
+        ],
+        [
+            "Terms ok wo   . ",
+            "unknown type"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Licensee may not transfer this Licence except under the   following circumstances : + with the consent from the Library the ",
+            "clauseroot"
+        ],
+        [
+            "Licensee may transfer this Licence under the following circumstances : + with the consent from the Library the ",
+            "clauseroot"
+        ],
+        [
+            "Licensee may not sell the Data . ",
+            "clauseroot"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Licensee may not provide services with the Data . ",
+            "clauseroot"
+        ],
+        [
+            "Licensee may not provide services with the Data . a 3rd ",
+            "clauseroot"
+        ],
+        [
+            "party may access the Data under the following circumstances : + with the consent from the Licensee + only after a 3rd ",
+            "clauseroot"
+        ],
+        [
+            "party did agree to this Licence + only after a 3rd ",
+            "unknown type"
+        ],
+        [
+            "party did agree to a confidentiality agreement the ",
+            "unknown type"
+        ],
+        [
+            "Licensee may not copy or adapt the Data except under the following circumstances : + with the consent from the Library + with Internal purpose the ",
+            "clauseroot"
+        ],
+        [
+            "Licensee may copy or adapt the Data under the following circumstances : ",
+            "clauseroot"
+        ],
+        [
+            "+ with the consent from the Library + with Internal purpose the ",
+            "unknown type"
+        ],
+        [
+            "Licensee may become a member of a Joint Venture Group . ",
+            "clauseroot"
+        ],
+        [
+            "a ",
+            "unknown type"
+        ],
+        [
+            "member of a Joint Venture Group may access the Data under the following circumstances : + only after the ",
+            "clauseroot"
+        ],
+        [
+            "Licensee did become a member of a Joint Venture Group * only after a ",
+            "unknown type"
+        ],
+        [
+            "member of a Joint Venture Group did become a member of a Joint Venture Group + with the consent from the Library + only after a ",
+            "unknown type"
+        ],
+        [
+            "member of a Joint Venture Group did agree to this Licence ",
+            "unknown type"
+        ]
+    ]
+}

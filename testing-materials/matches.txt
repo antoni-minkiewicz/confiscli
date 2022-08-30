@@ -1,0 +1,52 @@
+9 13 acquired pursuant to operations --- verb-with-preposition-and-pobj --- 
+20 21 1998 --- time_instant_one --- 
+25 29 made in
+ exercise --- verb-with-preposition-and-pobj --- 
+63 70 use the Data on the following terms --- verb-with-preposition-and-pobj --- 
+201 205 listed in the Schedule --- verb-with-preposition-and-pobj --- 
+233 240 provide services with": as in --- verb-with-preposition-chain --- 
+240 248 providing any service to any third
+ party --- verb-with-preposition-and-pobj --- 
+259 259  --- verb-with-preposition-and-pobj --- 
+268 270 agree to --- verb-with-preposition --- 
+274 284 bound by the terms of, to the same extend --- verb-with-preposition-and-pobj --- 
+293 300 copy or adapt": as in --- verb-with-preposition-chain --- 
+300 308 deriving data and statistics from,
+ copying --- verb-with-preposition-and-pobj --- 
+332 324  --- verb-with-preposition --- 
+347 354 the Licensee may not transfer this Licence --- clausetwo --- 
+351 360 transfer this Licence except under the
+ 
+ following circumstances --- verb-with-preposition-and-pobj --- 
+370 376 the Licensee may transfer this Licence --- clausetwo --- 
+373 381 transfer this Licence under the following
+ circumstances --- verb-with-preposition-and-pobj --- 
+391 398 the Licensee may not sell the Data --- clausethree --- 
+391 398 the Licensee may not sell the Data --- clausefive --- 
+400 406 the Licensee may not provide services --- clausetwo --- 
+404 488 provide services with the Data.
+ a 3rd party may access the Data under the following
+ circumstances:
+ + with the consent from the Licensee
+ + only after a 3rd party did agree to this Licence
+ + only after a 3rd party did agree to a confidentiality
+ agreement
+ the Licensee may not copy or adapt the Data except under the
+ following circumstances:
+ + with the consent from the Library
+ + with Internal purpose --- verb-with-preposition-and-pobj --- 
+489 495 the Licensee may copy or adapt --- clausefour --- 
+494 502 adapt the Data under the following
+ circumstances --- verb-with-preposition-and-pobj --- 
+517 523 the Licensee may become a member --- clausetwo --- 
+536 541 Group may access the Data --- clausetwo --- 
+538 589 access the Data
+ under the following circumstances:
+ + only after the Licensee did become a member of a Joint
+ Venture Group
+ * only after a member of a Joint Venture Group did become
+ a member of a Joint Venture Group
+ + with the consent --- verb-with-preposition-and-pobj --- 
+604 609 agree to
+ this Licence --- verb-with-preposition-and-pobj --- 
+FalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseTrueFalseFalseFalseFalseFalseFalseFalseFalse

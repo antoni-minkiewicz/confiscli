@@ -1,0 +1,381 @@
+{
+    "parties": [
+        {
+            "val": "seller",
+            "named": "the Seller",
+            "description": " "
+        },
+        {
+            "val": "buyer",
+            "named": "the Buyer",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "give",
+            "named": "give",
+            "description": " "
+        },
+        {
+            "val": "deliver",
+            "named": "deliver",
+            "description": " "
+        },
+        {
+            "val": "terminate",
+            "named": "terminate",
+            "description": " "
+        },
+        {
+            "val": "reveal",
+            "named": "reveal",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "goods",
+            "named": "the Goods",
+            "description": " "
+        },
+        {
+            "val": "contract",
+            "named": "the Contract",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "seller",
+            "modal_verb": "must",
+            "action_val": "give",
+            "object_thing_or_party_val": "goods",
+            "conditions": [
+                [
+                    "pay for the Goods to the Seller  the Seller",
+                    "verb-with-preposition-and-pobj",
+                    190,
+                    200
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 173,
+            "end": 179,
+            "text": "the Seller must give the Goods",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "seller",
+            "modal_verb": "must",
+            "action_val": "deliver",
+            "object_thing_or_party_val": "goods",
+            "conditions": [
+                [
+                    "deliver the Goods to the Buyer",
+                    "verb-with-preposition-and-pobj",
+                    201,
+                    207
+                ],
+                [
+                    "pay for the Goods to the Buyer      from            to            inclusive",
+                    "verb-with-preposition-chain-and-pobj",
+                    215,
+                    229
+                ],
+                [
+                    "pay for the Goods to the Buyer under the  following circumstances",
+                    "verb-with-preposition-and-pobj",
+                    233,
+                    245
+                ],
+                [
+                    "         ",
+                    "time_instant_one",
+                    249,
+                    250
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 198,
+            "end": 204,
+            "text": "the Seller must deliver the Goods",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "buyer",
+            "modal_verb": "mayNot",
+            "action_val": "terminate",
+            "object_thing_or_party_val": "contract",
+            "conditions": [
+                [
+                    "terminate the Contract under the following    circumstances",
+                    "verb-with-preposition-and-pobj",
+                    257,
+                    265
+                ],
+                [
+                    "deliver the Goods to the Buyer",
+                    "verb-with-preposition-and-pobj",
+                    273,
+                    279
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 253,
+            "end": 260,
+            "text": "the Buyer may not terminate the Contract",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "seller",
+            "modal_verb": "mayNot",
+            "action_val": "reveal",
+            "object_thing_or_party_val": "contract",
+            "conditions": [
+                [
+                    "reveal the Contract under the following    circumstances     from            to            inclusive",
+                    "verb-with-preposition-chain-and-pobj",
+                    285,
+                    301
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 281,
+            "end": 288,
+            "text": "the Seller may not reveal the Contract",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "buyer",
+            "modal_verb": "mayNot",
+            "action_val": "reveal",
+            "object_thing_or_party_val": "contract",
+            "conditions": [
+                [
+                    "reveal the Contract under the following  circumstances     from            to            inclusive",
+                    "verb-with-preposition-chain-and-pobj",
+                    308,
+                    324
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 304,
+            "end": 311,
+            "text": "the Buyer may not reveal the Contract",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "the Seller must give the Goods",
+                "clausetwo",
+                173,
+                179
+            ],
+            [
+                "pay for the Goods to the Seller  the Seller",
+                "verb-with-preposition-and-pobj",
+                190,
+                200
+            ]
+        ],
+        [
+            [
+                "the Seller must deliver the Goods",
+                "clausetwo",
+                198,
+                204
+            ],
+            [
+                "deliver the Goods to the Buyer",
+                "verb-with-preposition-and-pobj",
+                201,
+                207
+            ],
+            [
+                "pay for the Goods to the Buyer      from            to            inclusive",
+                "verb-with-preposition-chain-and-pobj",
+                215,
+                229
+            ],
+            [
+                "pay for the Goods to the Buyer under the  following circumstances",
+                "verb-with-preposition-and-pobj",
+                233,
+                245
+            ],
+            [
+                "         ",
+                "time_instant_one",
+                249,
+                250
+            ]
+        ],
+        [
+            [
+                "the Buyer may not terminate the Contract",
+                "clausetwo",
+                253,
+                260
+            ],
+            [
+                "terminate the Contract under the following    circumstances",
+                "verb-with-preposition-and-pobj",
+                257,
+                265
+            ],
+            [
+                "deliver the Goods to the Buyer",
+                "verb-with-preposition-and-pobj",
+                273,
+                279
+            ]
+        ],
+        [
+            [
+                "the Seller may not reveal the Contract",
+                "clausetwo",
+                281,
+                288
+            ],
+            [
+                "reveal the Contract under the following    circumstances     from            to            inclusive",
+                "verb-with-preposition-chain-and-pobj",
+                285,
+                301
+            ]
+        ],
+        [
+            [
+                "the Buyer may not reveal the Contract",
+                "clausetwo",
+                304,
+                311
+            ],
+            [
+                "reveal the Contract under the following  circumstances     from            to            inclusive",
+                "verb-with-preposition-chain-and-pobj",
+                308,
+                324
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Meat Purchase contract   1-   1 . ",
+            "unknown type"
+        ],
+        [
+            "2 .   Parties   ",
+            "unknown type"
+        ],
+        [
+            "Alice Liddell ( the Seller ) . ",
+            "unknown type"
+        ],
+        [
+            "The Meat Supermarket , Inc ( the Buyer ) .   ",
+            "unknown type"
+        ],
+        [
+            "The Meat Supermarket , Inc ( the Buyer ) .   2 - Definitions   Qa   \" the Contract \" : this legal agreement .   ",
+            "unknown type"
+        ],
+        [
+            "The Meat Supermarket , Inc ( the Buyer ) .   2 - Definitions   Qa   \" the Contract \" : this legal agreement .   \" pay for the Goods to \" : as in pay 20 in EUR to .   ",
+            "unknown type"
+        ],
+        [
+            "\" give the Goods to \" : as in pass on the title in the Goods to . ",
+            "unknown type"
+        ],
+        [
+            "\" give the Goods to \" : as in pass on the title in the Goods to . \" deliver the Goods to \" : as in deliver the Goods in one delivery at the warehouse of .   ",
+            "unknown type"
+        ],
+        [
+            "\" terminate \" .   ",
+            "unknown type"
+        ],
+        [
+            "\" reveal \" : as in not keeping the contents confidential .   ",
+            "unknown type"
+        ],
+        [
+            "3- ",
+            "unknown type"
+        ],
+        [
+            "Terms   1 .   ",
+            "unknown type"
+        ],
+        [
+            "Terms   1 .   the ",
+            "unknown type"
+        ],
+        [
+            "Buyer may pay for the Goods to the Seller under the following circumstances :   ",
+            "unknown type"
+        ],
+        [
+            "+ 10/06/2022 the ",
+            "circumstance"
+        ],
+        [
+            "Buyer may not pay for the Goods to the Seller except under the following circumstances :   + 10/06/2022 the ",
+            "circumstance"
+        ],
+        [
+            "Seller must give the Goods to the Buyer :   * only after the ",
+            "unknown type"
+        ],
+        [
+            "Buyer did pay for the Goods to the Seller the Seller must deliver the Goods to the Buyer :   + only after the ",
+            "clauseroot"
+        ],
+        [
+            "Buyer did pay for the Goods to the Buyer   + from 15/06/2022 to 25/06/2022 inclusive the ",
+            "circumstance"
+        ],
+        [
+            "Buyer may pay for the Goods to the Buyer under the following circumstances :   + OpenFutureRange(start=1 0/06/2022 )   . ",
+            "circumstance"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Buyer may not terminate the Contract under the following   circumstances : * only after the ",
+            "unknown type"
+        ],
+        [
+            "Seller did deliver the Goods to the Buyer   . ",
+            "unknown type"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Seller may not reveal the Contract under the following   circumstances : * from 01/06/2022 to 01/12/2022 inclusive 8 . ",
+            "circumstance"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Buyer may not reveal the Contract under the following circumstances : * from 01/06/2022 to 01/12/2022 inclusive ",
+            "circumstance"
+        ]
+    ]
+}

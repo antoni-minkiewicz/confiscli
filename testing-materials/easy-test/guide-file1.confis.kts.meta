@@ -1,0 +1,29 @@
+{
+    "parties": [
+        {
+            "val": "bob",
+            "named": "Bob",
+            "description": "Bob from Sheffield"
+        },
+        {
+            "val": "alice",
+            "named": "Alice",
+            "description": "Alice Liddell of Imperial College"
+        }
+    ],
+    "actions": [
+        {
+            "val": "pay",
+            "named": "pay",
+            "description": " "
+        },
+        {
+            "val": "send",
+            "named": "send",
+            "description" : "Email file to company inbox"
+        }
+    ],
+    "definitions": [],
+    "clauses": [],
+    "sentences": []
+}

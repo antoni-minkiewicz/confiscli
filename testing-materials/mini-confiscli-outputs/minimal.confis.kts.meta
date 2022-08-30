@@ -1,0 +1,95 @@
+{
+    "parties": [
+        {
+            "val": "alice",
+            "named": "alice",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "eat",
+            "named": "eat",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "cookie",
+            "named": "cookie",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "alice",
+            "modal_verb": "may",
+            "action_val": "eat",
+            "object_thing_or_party_val": "cookie",
+            "conditions": [
+                [
+                    "eat cookie except under the following\n circumstances:\n \n + with Commercial purpose",
+                    "verb-with-preposition-and-pobj",
+                    38,
+                    52
+                ]
+            ],
+            "string_id": "clausetwo",
+            "start": 36,
+            "end": 40,
+            "text": "alice may eat cookie",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "alice may eat cookie",
+                "clausetwo",
+                36,
+                40
+            ],
+            [
+                "eat cookie except under the following\n circumstances:\n \n + with Commercial purpose",
+                "verb-with-preposition-and-pobj",
+                38,
+                52
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Minimal example   1 - Parties   1 . alice . ",
+            "unknown type"
+        ],
+        [
+            "  ",
+            "unknown type"
+        ],
+        [
+            "2 - Definitions   1 . \" cookie \" . ",
+            "unknown type"
+        ],
+        [
+            "2 . \" eat \" . ",
+            "unknown type"
+        ],
+        [
+            "  3 - Terms   ",
+            "unknown type"
+        ],
+        [
+            "1 . ",
+            "unknown type"
+        ],
+        [
+            "alice may eat cookie except under the following circumstances :   ",
+            "clauseroot"
+        ],
+        [
+            "alice may eat cookie except under the following circumstances :   + with Commercial purpose ",
+            "clauseroot"
+        ]
+    ]
+}

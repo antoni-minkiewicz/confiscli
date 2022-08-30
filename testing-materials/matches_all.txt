@@ -1,0 +1,140 @@
+9 12 acquired pursuant to --- verb-with-preposition --- 
+9 13 acquired pursuant to operations --- verb-with-preposition-and-pobj --- 
+20 21 1998 --- time_instant_one --- 
+25 27 made in --- verb-with-preposition --- 
+25 29 made in
+ exercise --- verb-with-preposition-and-pobj --- 
+63 67 use the Data on --- verb-with-preposition --- 
+63 70 use the Data on the following terms --- verb-with-preposition-and-pobj --- 
+201 203 listed in --- verb-with-preposition --- 
+201 205 listed in the Schedule --- verb-with-preposition-and-pobj --- 
+233 236 provide services with --- verb-with-preposition --- 
+233 239 provide services with": as --- verb-with-preposition --- 
+233 240 provide services with": as in --- verb-with-preposition-chain --- 
+240 244 providing any service to --- verb-with-preposition --- 
+240 248 providing any service to any third
+ party --- verb-with-preposition-and-pobj --- 
+259 258  --- verb-with-preposition --- 
+259 259  --- verb-with-preposition-and-pobj --- 
+268 270 agree to --- verb-with-preposition --- 
+274 281 bound by the terms of, to --- verb-with-preposition --- 
+274 284 bound by the terms of, to the same extend --- verb-with-preposition-and-pobj --- 
+293 299 copy or adapt": as --- verb-with-preposition --- 
+293 300 copy or adapt": as in --- verb-with-preposition-chain --- 
+300 305 deriving data and statistics from --- verb-with-preposition --- 
+300 308 deriving data and statistics from,
+ copying --- verb-with-preposition-and-pobj --- 
+332 324  --- verb-with-preposition --- 
+347 354 the Licensee may not transfer this Licence --- clausetwo --- 
+351 355 transfer this Licence except --- verb-with-preposition --- 
+351 359 transfer this Licence except under the
+ 
+ following --- verb-with-preposition --- 
+351 360 transfer this Licence except under the
+ 
+ following circumstances --- verb-with-preposition-and-pobj --- 
+351 356 transfer this Licence except under --- verb-with-preposition-chain --- 
+370 376 the Licensee may transfer this Licence --- clausetwo --- 
+373 364  --- verb-with-preposition --- 
+373 377 transfer this Licence under --- verb-with-preposition --- 
+373 366  --- verb-with-preposition-and-pobj --- 
+373 381 transfer this Licence under the following
+ circumstances --- verb-with-preposition-and-pobj --- 
+391 398 the Licensee may not sell the Data --- clausethree --- 
+391 398 the Licensee may not sell the Data --- clausefive --- 
+395 385  --- verb-with-preposition --- 
+395 387  --- verb-with-preposition-and-pobj --- 
+400 406 the Licensee may not provide services --- clausetwo --- 
+404 427 provide services with the Data.
+ a 3rd party may access the Data under the following
+ circumstances:
+ + with --- verb-with-preposition --- 
+404 478 provide services with the Data.
+ a 3rd party may access the Data under the following
+ circumstances:
+ + with the consent from the Licensee
+ + only after a 3rd party did agree to this Licence
+ + only after a 3rd party did agree to a confidentiality
+ agreement
+ the Licensee may not copy or adapt the Data except under the
+ following circumstances:
+ + with --- verb-with-preposition --- 
+404 486 provide services with the Data.
+ a 3rd party may access the Data under the following
+ circumstances:
+ + with the consent from the Licensee
+ + only after a 3rd party did agree to this Licence
+ + only after a 3rd party did agree to a confidentiality
+ agreement
+ the Licensee may not copy or adapt the Data except under the
+ following circumstances:
+ + with the consent from the Library
+ + with --- verb-with-preposition --- 
+404 429 provide services with the Data.
+ a 3rd party may access the Data under the following
+ circumstances:
+ + with the consent --- verb-with-preposition-and-pobj --- 
+404 480 provide services with the Data.
+ a 3rd party may access the Data under the following
+ circumstances:
+ + with the consent from the Licensee
+ + only after a 3rd party did agree to this Licence
+ + only after a 3rd party did agree to a confidentiality
+ agreement
+ the Licensee may not copy or adapt the Data except under the
+ following circumstances:
+ + with the consent --- verb-with-preposition-and-pobj --- 
+404 488 provide services with the Data.
+ a 3rd party may access the Data under the following
+ circumstances:
+ + with the consent from the Licensee
+ + only after a 3rd party did agree to this Licence
+ + only after a 3rd party did agree to a confidentiality
+ agreement
+ the Licensee may not copy or adapt the Data except under the
+ following circumstances:
+ + with the consent from the Library
+ + with Internal purpose --- verb-with-preposition-and-pobj --- 
+415 419 access the Data under --- verb-with-preposition --- 
+415 423 access the Data under the following
+ circumstances --- verb-with-preposition-and-pobj --- 
+440 442 agree to --- verb-with-preposition --- 
+440 444 agree to this Licence --- verb-with-preposition-and-pobj --- 
+452 454 agree to --- verb-with-preposition --- 
+452 458 agree to a confidentiality
+ agreement --- verb-with-preposition-and-pobj --- 
+459 466 the Licensee may not copy or adapt --- clausefour --- 
+465 469 adapt the Data except --- verb-with-preposition --- 
+465 470 adapt the Data except under --- verb-with-preposition-chain --- 
+465 474 adapt the Data except under the
+ following circumstances --- verb-with-preposition-chain-and-pobj --- 
+489 495 the Licensee may copy or adapt --- clausefour --- 
+494 498 adapt the Data under --- verb-with-preposition --- 
+494 502 adapt the Data under the following
+ circumstances --- verb-with-preposition-and-pobj --- 
+517 523 the Licensee may become a member --- clausetwo --- 
+520 514  --- verb-with-preposition --- 
+520 516  --- verb-with-preposition-and-pobj --- 
+536 541 Group may access the Data --- clausetwo --- 
+538 543 access the Data
+ under --- verb-with-preposition --- 
+538 587 access the Data
+ under the following circumstances:
+ + only after the Licensee did become a member of a Joint
+ Venture Group
+ * only after a member of a Joint Venture Group did become
+ a member of a Joint Venture Group
+ + with --- verb-with-preposition --- 
+538 546 access the Data
+ under the following circumstances --- verb-with-preposition-and-pobj --- 
+538 589 access the Data
+ under the following circumstances:
+ + only after the Licensee did become a member of a Joint
+ Venture Group
+ * only after a member of a Joint Venture Group did become
+ a member of a Joint Venture Group
+ + with the consent --- verb-with-preposition-and-pobj --- 
+604 606 agree to --- verb-with-preposition --- 
+604 609 agree to
+ this Licence --- verb-with-preposition-and-pobj --- 
+FalseTrueFalseFalseTrueFalseTrueFalseTrueFalseTrueTrueFalseTrueFalseFalseFalseFalseTrueFalseTrueFalseTrueFalseFalseFalseTrueTrueTrueFalseTrueTrueFalseTrueFalseTrueTrueFalseFalseFalseTrueTrueTrueTrueTrueTrueTrueFalseTrueFalseTrueFalseFalseTrueTrueFalseFalseTrueFalseTrueFalseFalseFalseTrueTrueTrueFalseTrue

@@ -1,0 +1,321 @@
+{
+    "parties": [
+        {
+            "val": "alice",
+            "named": "Alice Liddell",
+            "description": " "
+        },
+        {
+            "val": "bob",
+            "named": "Bob",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "pay",
+            "named": "pay",
+            "description": " "
+        },
+        {
+            "val": "send",
+            "named": "send",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "data",
+            "named": " the Data",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "alice",
+            "modal_verb": "must",
+            "action_val": "pay",
+            "object_thing_or_party_val": "bob",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 105,
+            "end": 109,
+            "text": "Alice must pay Bob",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "must",
+            "action_val": "pay",
+            "object_thing_or_party_val": "bob",
+            "conditions": [
+                [
+                    "pay Bob       from            to           ",
+                    "verb-with-preposition-chain-and-pobj",
+                    107,
+                    116
+                ],
+                [
+                    "          ",
+                    "time_instant_two",
+                    115,
+                    116
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 105,
+            "end": 109,
+            "text": "Alice must pay Bob",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "mayNot",
+            "action_val": "pay",
+            "object_thing_or_party_val": "bob",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 118,
+            "end": 123,
+            "text": "Alice may not pay Bob",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "mayNot",
+            "action_val": "pay",
+            "object_thing_or_party_val": "bob",
+            "conditions": [
+                [
+                    "pay Bob under the following circumstances",
+                    "verb-with-preposition-and-pobj",
+                    121,
+                    127
+                ],
+                [
+                    "Alice did pay Bob",
+                    "past_action",
+                    132,
+                    136
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 118,
+            "end": 123,
+            "text": "Alice may not pay Bob",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "bob",
+            "modal_verb": "must",
+            "action_val": "send",
+            "object_thing_or_party_val": "data",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 137,
+            "end": 142,
+            "text": "Bob must send the Data",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "bob",
+            "modal_verb": "must",
+            "action_val": "send",
+            "object_thing_or_party_val": "data",
+            "conditions": [
+                [
+                    "Alice did pay Bob",
+                    "past_action",
+                    147,
+                    151
+                ],
+                [
+                    "pay Bob      from            to            inclusive",
+                    "verb-with-preposition-and-pobj",
+                    149,
+                    158
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 137,
+            "end": 142,
+            "text": "Bob must send the Data",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "Alice must pay Bob",
+                "clausethree",
+                105,
+                109
+            ]
+        ],
+        [
+            [
+                "Alice must pay Bob",
+                "clausefive",
+                105,
+                109
+            ],
+            [
+                "pay Bob       from            to           ",
+                "verb-with-preposition-chain-and-pobj",
+                107,
+                116
+            ],
+            [
+                "          ",
+                "time_instant_two",
+                115,
+                116
+            ]
+        ],
+        [
+            [
+                "Alice may not pay Bob",
+                "clausethree",
+                118,
+                123
+            ]
+        ],
+        [
+            [
+                "Alice may not pay Bob",
+                "clausefive",
+                118,
+                123
+            ],
+            [
+                "pay Bob under the following circumstances",
+                "verb-with-preposition-and-pobj",
+                121,
+                127
+            ],
+            [
+                "Alice did pay Bob",
+                "past_action",
+                132,
+                136
+            ]
+        ],
+        [
+            [
+                "Bob must send the Data",
+                "clausethree",
+                137,
+                142
+            ]
+        ],
+        [
+            [
+                "Bob must send the Data",
+                "clausefive",
+                137,
+                142
+            ],
+            [
+                "Alice did pay Bob",
+                "past_action",
+                147,
+                151
+            ],
+            [
+                "pay Bob      from            to            inclusive",
+                "verb-with-preposition-and-pobj",
+                149,
+                158
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Simple Contract Example   ",
+            "unknown type"
+        ],
+        [
+            "Simple Contract Example   1-   1 .   ",
+            "unknown type"
+        ],
+        [
+            "Parties   ",
+            "unknown type"
+        ],
+        [
+            "Alice Liddell of Imperial College ( Alice ) .   ",
+            "unknown type"
+        ],
+        [
+            "2 . ",
+            "unknown type"
+        ],
+        [
+            "Bob from Sheffield ( Bob ) . ",
+            "unknown type"
+        ],
+        [
+            "2 - Definitions   1 . 2 ",
+            "unknown type"
+        ],
+        [
+            ". ",
+            "unknown type"
+        ],
+        [
+            ". 3 .   ",
+            "unknown type"
+        ],
+        [
+            "\" the Data \" : Confidential non - anonymised customer data .   ",
+            "unknown type"
+        ],
+        [
+            "\" pay \" . ",
+            "unknown type"
+        ],
+        [
+            "\" pay \" . \" send \" : Email file to company inbox .   ",
+            "unknown type"
+        ],
+        [
+            "3- ",
+            "unknown type"
+        ],
+        [
+            "Terms   1 .   ",
+            "unknown type"
+        ],
+        [
+            "The Licence and the terms and conditions thereof shall be governed and construed in accordance with the law of England and Wales . ",
+            "unknown type"
+        ],
+        [
+            "Alice must pay Bob :   * from 01/06/2022 to 07/06/2022 inclusive ",
+            "clauseroot-circumstance"
+        ],
+        [
+            "Alice may not pay Bob under the following circumstances :   * only after ",
+            "clauseroot"
+        ],
+        [
+            "Alice did pay Bob ",
+            "circumstance"
+        ],
+        [
+            "Bob must send the Data :   * only after ",
+            "clauseroot"
+        ],
+        [
+            "Alice did pay Bob   * from 07/06/2022 to 14/06/2022 inclusive ",
+            "circumstance"
+        ]
+    ]
+}

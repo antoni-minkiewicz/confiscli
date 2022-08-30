@@ -1,0 +1,65 @@
+Meat Purchase contract
+
+1-
+
+1.
+2.
+
+Parties
+
+Alice Liddell (the Seller).
+The Meat Supermarket, Inc (the Buyer).
+
+2 - Definitions
+
+Qa
+
+"the Contract": this legal agreement.
+
+"pay for the Goods to": as in pay 20 in EUR to.
+
+"give the Goods to": as in pass on the title in the Goods to.
+"deliver the Goods to": as in deliver the Goods in one delivery
+at the warehouse of.
+
+"terminate".
+
+"reveal": as in not keeping the contents confidential.
+
+3- Terms
+
+1.
+
+the Buyer may pay for the Goods to the Seller under the
+following circumstances:
+
++ 10/06/2022
+the Buyer may not pay for the Goods to the Seller except
+under the following circumstances:
+
++ 10/06/2022
+the Seller must give the Goods to the Buyer:
+
+* only after the Buyer did pay for the Goods to the Seller
+the Seller must deliver the Goods to the Buyer:
+
++ only after the Buyer did pay for the Goods to the Buyer
+
++ from 15/06/2022 to 25/06/2022 inclusive
+the Buyer may pay for the Goods to the Buyer under the
+following circumstances:
+
++ OpenFutureRange(start=1 0/06/2022)
+
+. the Buyer may not terminate the Contract under the following
+
+circumstances:
+* only after the Seller did deliver the Goods to the Buyer
+
+. the Seller may not reveal the Contract under the following
+
+circumstances:
+* from 01/06/2022 to 01/12/2022 inclusive
+8. the Buyer may not reveal the Contract under the following
+circumstances:
+* from 01/06/2022 to 01/12/2022 inclusive
