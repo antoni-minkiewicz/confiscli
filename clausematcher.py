@@ -11,7 +11,7 @@ from utils import get_txt_from_file, find_and_replace_in_text_phrase_one_with_ph
 class ClauseMatcher:
     def __init__(self):
         try:
-            self.nlp = spacy.load("en_core_web_trf")
+            self.nlp = spacy.load("en_core_web_sm")
         except BaseException as e:
             print("You need to download \"en_core_web_sm\" ")
             raise e
