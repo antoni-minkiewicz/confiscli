@@ -1,6 +1,6 @@
 # confiscli
 ## About
-This is a tool that uses rule-based NLP to aide in the translation of natrual language contracts to <a href="https://github.com/Cottand/Confis">Confis</a> contracts.
+This is a tool that uses rule-based NLP to aid in the translation of natrual language contracts to <a href="https://github.com/Cottand/Confis">Confis</a> contracts.
 ## Usage
 ### Installation
 ```
