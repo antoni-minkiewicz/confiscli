@@ -36,10 +36,6 @@ class ClauseMatcher:
         matches = matcher(doc)
         return matches
 
-    def test_matcher_on_a_text(self, txt, matcher):
-        matches = self.get_matches_from_given_matcher(txt, matcher)
-        self.print_string_prepositional_phrases(matches, txt)
-
 
     """Matcher Methods"""
 
@@ -181,7 +177,9 @@ class ClauseMatcher:
                               {"LEFT_ID": "verb", "REL_OP": '>', "RIGHT_ID": "adverbialclausemodifier",
                                "RIGHT_ATTRS": {"DEP": "advcl"}},
                               {"LEFT_ID": "adverbialclausemodifier", "REL_OP": '>', "RIGHT_ID": "adverbialmodifier",
-                               "RIGHT_ATTRS": {"DEP": "advmod"}}
+                               "RIGHT_ATTRS": {"DEP": "advmod"}},
+                               {"LEFT_ID": "adverbialclausemodifier", "REL_OP": '>>', "RIGHT_ID": "any",
+                                "RIGHT_ATTRS": {"IS_ALPHA": True}}
                               ]
 
         matcher.add("verb-with-preposition-chain", [dependency_pattern])
@@ -201,9 +199,20 @@ class ClauseMatcher:
                 print(span_verb.text + " " + span_prepositional_phrase.text, tokens, " --- " + string_id)
             elif string_id == "verb-with-advcl-chain":
                 span_verb = doc[tokens[0]]
-                span_prepositional_phrase = doc[tokens[2]:tokens[1]+1]
+                span_prepositional_phrase = doc[tokens[2]:tokens[3]+1]
                 print(span_verb.text + " " + span_prepositional_phrase.text, tokens, " --- " + string_id)
 
+    def filted_syntactic_matches(self, matches):
+        return matches
+
+    def test_syntactic_matcher(self, txt, matcher):
+        matches = self.get_matches_from_given_matcher(txt, matcher)
+        matches_filtered = self.filted_syntactic_matches(matches)
+        self.print_string_prepositional_phrases(matches_filtered, txt)
+
+    def test_matcher_on_a_text(self, txt, matcher):
+        matches = self.get_matches_from_given_matcher(txt, matcher)
+        self.print_string_prepositional_phrases(matches, txt)
 
     """UTILS"""
 
@@ -371,4 +380,4 @@ if __name__ == "__main__":
     txt1 = "the Buyer may not pay for the Goods to the Seller except under the following circumstances:"
     txt = "the Seller must deliver the Goods to the Buyer: • only after the Buyer did pay for the Goods to the Buyer • from 15/06/2022 to 25/06/2022 inclusive"
     clausematcher.get_spacy_visualisation_from_txt(txt)
-    clausematcher.test_matcher_on_a_text(txt, clausematcher.get_matcher_prepositional_phrases_attached_to_verb())
+    clausematcher.test_syntactic_matcher(txt, clausematcher.get_matcher_prepositional_phrases_attached_to_verb())
