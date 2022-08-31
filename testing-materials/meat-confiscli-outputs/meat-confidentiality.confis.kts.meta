@@ -1,0 +1,151 @@
+{
+    "parties": [
+        {
+            "val": "seller",
+            "named": "the Seller",
+            "description": " "
+        },
+        {
+            "val": "buyer",
+            "named": "the Buyer",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "reveal",
+            "named": "reveal",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "contract",
+            "named": " the Contract",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "seller",
+            "modal_verb": "mayNot",
+            "action_val": "reveal",
+            "object_thing_or_party_val": "contract",
+            "conditions": [
+                [
+                    "reveal the Contract under the following  circumstances     from            to            inclusive",
+                    "verb-with-preposition-chain-and-pobj",
+                    69,
+                    85
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 65,
+            "end": 72,
+            "text": "the Seller may not reveal the Contract",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "buyer",
+            "modal_verb": "mayNot",
+            "action_val": "reveal",
+            "object_thing_or_party_val": "contract",
+            "conditions": [
+                [
+                    "reveal the Contract under the following  circumstances     from            to            inclusive",
+                    "verb-with-preposition-chain-and-pobj",
+                    92,
+                    108
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 88,
+            "end": 95,
+            "text": "the Buyer may not reveal the Contract",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "the Seller may not reveal the Contract",
+                "clausetwo",
+                65,
+                72
+            ],
+            [
+                "reveal the Contract under the following  circumstances     from            to            inclusive",
+                "verb-with-preposition-chain-and-pobj",
+                69,
+                85
+            ]
+        ],
+        [
+            [
+                "the Buyer may not reveal the Contract",
+                "clausetwo",
+                88,
+                95
+            ],
+            [
+                "reveal the Contract under the following  circumstances     from            to            inclusive",
+                "verb-with-preposition-chain-and-pobj",
+                92,
+                108
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Confis Agreement   1 - Parties   1 . ",
+            "unknown type"
+        ],
+        [
+            "Alice Liddell ( the Seller ) . ",
+            "unknown type"
+        ],
+        [
+            "2 . The Meat Supermarket , Inc ( the Buyer ) .   ",
+            "unknown type"
+        ],
+        [
+            "2 . The Meat Supermarket , Inc ( the Buyer ) .   2 - Definitions   1 . ",
+            "unknown type"
+        ],
+        [
+            "\" the Contract \" : this Agreement . ",
+            "unknown type"
+        ],
+        [
+            "2 . \" reveal \" : as in not keeping the contents confidential .   ",
+            "unknown type"
+        ],
+        [
+            "3- ",
+            "unknown type"
+        ],
+        [
+            "Terms   1 . ",
+            "unknown type"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Seller may not reveal the Contract under the following circumstances : + from 01/06/2022 to 01/12/2022 inclusive 2 . ",
+            "circumstance"
+        ],
+        [
+            "the ",
+            "unknown type"
+        ],
+        [
+            "Buyer may not reveal the Contract under the following circumstances : + from 01/06/2022 to 01/12/2022 inclusive ",
+            "circumstance"
+        ]
+    ]
+}

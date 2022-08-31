@@ -377,7 +377,7 @@ if __name__ == "__main__":
 
 
     """For Testing Individual Matchers"""
-    txt1 = "the Buyer may not pay for the Goods to the Seller except under the following circumstances:"
-    txt = "the Seller must deliver the Goods to the Buyer: • only after the Buyer did pay for the Goods to the Buyer • from 15/06/2022 to 25/06/2022 inclusive"
+    txt = "the Buyer may not terminate the Contract under the following circumstances: only after the Seller did deliver the Goods to the Buyer"
+    txt1 = "Amazon is a large tech company, whereas Wholefoods is a popular grocery store"
     clausematcher.get_spacy_visualisation_from_txt(txt)
     clausematcher.test_syntactic_matcher(txt, clausematcher.get_matcher_prepositional_phrases_attached_to_verb())

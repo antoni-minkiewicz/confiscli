@@ -1,0 +1,21 @@
+Confis Agreement
+1 - Parties
+
+1. Alice Liddell (Alice).
+2. Bob The Builder (Bobby).
+
+2 - Definitions
+
+1. "pay".
+2. "notify": Notify by email.
+3 - Terms
+
+1. Alice must pay Bobby:
++ with Internal purpose
+2. Alice may notify Bobby under the following circumstances:
+* only after Alice did pay Bobby
++ with Commercial purpose
+3. Alice may not notify Bobby except under the following
+circumstances:
++ with Commercial purpose
+4. This license is governed by england law

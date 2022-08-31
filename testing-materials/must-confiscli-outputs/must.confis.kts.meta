@@ -1,0 +1,108 @@
+{
+    "parties": [
+        {
+            "val": "bob",
+            "named": "bob",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "pay",
+            "named": "pay",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "alice",
+            "named": "  alice",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "bob",
+            "modal_verb": "must",
+            "action_val": "pay",
+            "object_thing_or_party_val": "alice",
+            "conditions": [
+                [
+                    "pay alice       from            to            inclusive",
+                    "verb-with-preposition-chain-and-pobj",
+                    97,
+                    107
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 95,
+            "end": 99,
+            "text": "bob must pay alice",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "bob must pay alice",
+                "clausetwo",
+                95,
+                99
+            ],
+            [
+                "pay alice       from            to            inclusive",
+                "verb-with-preposition-chain-and-pobj",
+                97,
+                107
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Confis Agreement 1 - Parties   1 . alice . ",
+            "unknown type"
+        ],
+        [
+            "Confis Agreement 1 - Parties   1 . alice . 2 . bob .   2 - Definitions   1 . ",
+            "unknown type"
+        ],
+        [
+            "\" shareDataWith \" . ",
+            "unknown type"
+        ],
+        [
+            "2 . \" pay \" . ",
+            "unknown type"
+        ],
+        [
+            "  3 - Terms   ",
+            "unknown type"
+        ],
+        [
+            "1 . ",
+            "unknown type"
+        ],
+        [
+            "The Licence and the terms and conditions thereof shall be governed and construed in accordance with the law of England and Wales .   ",
+            "unknown type"
+        ],
+        [
+            "2 . ",
+            "unknown type"
+        ],
+        [
+            "alice may shareDataWith bob under the following circumstances :   + only after ",
+            "unknown type"
+        ],
+        [
+            "bob did pay alice - with Research purpose   3 . ",
+            "unknown type"
+        ],
+        [
+            "bob must pay alice :   * from 01/06/2022 to 07/06/2022 inclusive ",
+            "clauseroot-circumstance"
+        ]
+    ]
+}

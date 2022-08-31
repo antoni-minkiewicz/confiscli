@@ -1,0 +1,17 @@
+Confis Agreement
+1 - Parties
+
+1. ana.
+2. the builder (bob).
+
+2 - Definitions
+
+1. "the cookie".
+
+2. "cake".
+3. "eat".
+3 - Terms
+
+1. bob may eat the cookie.
+2. ana may eat cake under the following circumstances:
+* only after bob did eat the cookie

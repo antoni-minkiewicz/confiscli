@@ -1,0 +1,25 @@
+Confis Agreement
+1 - Parties
+
+1. alice.
+2. bob.
+
+2 - Definitions
+
+1. "shareDataWith".
+2. "pay".
+3 - Terms
+
+1. The Licence and the terms and conditions thereof shall be
+governed and construed in accordance with the law of England
+and Wales.
+
+2. alice may shareDataWith bob under the following
+circumstances:
+
++ only after bob did pay alice
+- with Research purpose
+
+3. bob must pay alice:
+
+* from 01/06/2022 to 07/06/2022 inclusive

@@ -1,0 +1,139 @@
+{
+    "parties": [
+        {
+            "val": "ana",
+            "named": "ana",
+            "description": " "
+        },
+        {
+            "val": "bob",
+            "named": "bob",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "eat",
+            "named": "eat",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "cookie",
+            "named": " the cookie",
+            "description": " "
+        },
+        {
+            "val": "cake",
+            "named": "cake",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "bob",
+            "modal_verb": "may",
+            "action_val": "eat",
+            "object_thing_or_party_val": "cookie",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausetwo",
+            "start": 53,
+            "end": 58,
+            "text": "bob may eat the cookie",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "ana",
+            "modal_verb": "may",
+            "action_val": "eat",
+            "object_thing_or_party_val": "cake",
+            "conditions": [
+                [
+                    "eat cake under the following circumstances",
+                    "verb-with-preposition-and-pobj",
+                    64,
+                    70
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 62,
+            "end": 66,
+            "text": "ana may eat cake",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "bob may eat the cookie",
+                "clausetwo",
+                53,
+                58
+            ]
+        ],
+        [
+            [
+                "ana may eat cake",
+                "clausetwo",
+                62,
+                66
+            ],
+            [
+                "eat cake under the following circumstances",
+                "verb-with-preposition-and-pobj",
+                64,
+                70
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Confis Agreement 1 - Parties   1 . ana . ",
+            "unknown type"
+        ],
+        [
+            "2 . the builder ( bob ) .   ",
+            "unknown type"
+        ],
+        [
+            "2 . the builder ( bob ) .   2 - Definitions   1 . ",
+            "unknown type"
+        ],
+        [
+            "\" the cookie \" .   ",
+            "unknown type"
+        ],
+        [
+            "2 . \" cake \" . ",
+            "unknown type"
+        ],
+        [
+            "3 . \" eat \" . ",
+            "unknown type"
+        ],
+        [
+            "  3 - Terms   1 . ",
+            "unknown type"
+        ],
+        [
+            "bob may eat the cookie . ",
+            "clauseroot"
+        ],
+        [
+            "2 . ",
+            "unknown type"
+        ],
+        [
+            "ana may eat cake under the following circumstances : * only after ",
+            "clauseroot"
+        ],
+        [
+            "bob did eat the cookie ",
+            "unknown type"
+        ]
+    ]
+}

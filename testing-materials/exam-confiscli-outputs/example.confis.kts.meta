@@ -1,0 +1,289 @@
+{
+    "parties": [
+        {
+            "val": "alice",
+            "named": "Alice Liddell",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "pay",
+            "named": "pay",
+            "description": " "
+        },
+        {
+            "val": "notify",
+            "named": "notify",
+            "description": " "
+        },
+        {
+            "val": "notify",
+            "named": "Notify",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "bobby",
+            "named": "Bobby",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "alice",
+            "modal_verb": "must",
+            "action_val": "pay",
+            "object_thing_or_party_val": "bobby",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 54,
+            "end": 58,
+            "text": "Alice must pay Bobby",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "must",
+            "action_val": "pay",
+            "object_thing_or_party_val": "bobby",
+            "conditions": [
+                [
+                    "pay Bobby     with Internal purpose   ",
+                    "verb-with-preposition-and-pobj",
+                    56,
+                    66
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 54,
+            "end": 58,
+            "text": "Alice must pay Bobby",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "may",
+            "action_val": "notify",
+            "object_thing_or_party_val": "bobby",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 67,
+            "end": 71,
+            "text": "Alice may notify Bobby",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "may",
+            "action_val": "notify",
+            "object_thing_or_party_val": "bobby",
+            "conditions": [
+                [
+                    "notify Bobby under the following circumstances    ",
+                    "verb-with-preposition",
+                    69,
+                    78
+                ],
+                [
+                    "Alice did pay Bobby",
+                    "past_action",
+                    80,
+                    84
+                ],
+                [
+                    "pay Bobby    with Commercial purpose   ",
+                    "verb-with-preposition-and-pobj",
+                    82,
+                    91
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 67,
+            "end": 71,
+            "text": "Alice may notify Bobby",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "mayNot",
+            "action_val": "notify",
+            "object_thing_or_party_val": "bobby",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 92,
+            "end": 97,
+            "text": "Alice may not notify Bobby",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "mayNot",
+            "action_val": "notify",
+            "object_thing_or_party_val": "bobby",
+            "conditions": [
+                [
+                    "notify Bobby except under the following  circumstances",
+                    "verb-with-preposition-chain-and-pobj",
+                    95,
+                    103
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 92,
+            "end": 97,
+            "text": "Alice may not notify Bobby",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "Alice must pay Bobby",
+                "clausethree",
+                54,
+                58
+            ]
+        ],
+        [
+            [
+                "Alice must pay Bobby",
+                "clausefive",
+                54,
+                58
+            ],
+            [
+                "pay Bobby     with Internal purpose   ",
+                "verb-with-preposition-and-pobj",
+                56,
+                66
+            ]
+        ],
+        [
+            [
+                "Alice may notify Bobby",
+                "clausethree",
+                67,
+                71
+            ]
+        ],
+        [
+            [
+                "Alice may notify Bobby",
+                "clausefive",
+                67,
+                71
+            ],
+            [
+                "notify Bobby under the following circumstances    ",
+                "verb-with-preposition",
+                69,
+                78
+            ],
+            [
+                "Alice did pay Bobby",
+                "past_action",
+                80,
+                84
+            ],
+            [
+                "pay Bobby    with Commercial purpose   ",
+                "verb-with-preposition-and-pobj",
+                82,
+                91
+            ]
+        ],
+        [
+            [
+                "Alice may not notify Bobby",
+                "clausethree",
+                92,
+                97
+            ]
+        ],
+        [
+            [
+                "Alice may not notify Bobby",
+                "clausefive",
+                92,
+                97
+            ],
+            [
+                "notify Bobby except under the following  circumstances",
+                "verb-with-preposition-chain-and-pobj",
+                95,
+                103
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Confis Agreement 1 - Parties   1 . ",
+            "unknown type"
+        ],
+        [
+            "Alice Liddell ( Alice ) . ",
+            "unknown type"
+        ],
+        [
+            "2 . ",
+            "unknown type"
+        ],
+        [
+            "Bob The Builder ( Bobby ) .   ",
+            "unknown type"
+        ],
+        [
+            "2 - ",
+            "unknown type"
+        ],
+        [
+            "Definitions   1 . \" pay \" . ",
+            "unknown type"
+        ],
+        [
+            "Definitions   1 . \" pay \" . 2 . \" notify \" : Notify by email . ",
+            "unknown type"
+        ],
+        [
+            "  ",
+            "unknown type"
+        ],
+        [
+            "3 - Terms   1 . ",
+            "unknown type"
+        ],
+        [
+            "Alice must pay Bobby : + with Internal purpose 2 . ",
+            "clauseroot"
+        ],
+        [
+            "Alice may notify Bobby under the following circumstances : * only after ",
+            "clauseroot"
+        ],
+        [
+            "Alice did pay Bobby + with Commercial purpose 3 . ",
+            "circumstance"
+        ],
+        [
+            "Alice may not notify Bobby except under the following circumstances : ",
+            "clauseroot"
+        ],
+        [
+            "+ with Commercial purpose 4 . ",
+            "unknown type"
+        ],
+        [
+            "This license is governed by england law ",
+            "unknown type"
+        ]
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "parties": [
+        {
+            "val": "alice",
+            "named": "  alice",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "hug",
+            "named": "hug",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "bob",
+            "named": "bob",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "alice",
+            "modal_verb": "may",
+            "action_val": " ",
+            "object_thing_or_party_val": "bob",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 39,
+            "end": 43,
+            "text": "alice may hug bob",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "may",
+            "action_val": " ",
+            "object_thing_or_party_val": "bob",
+            "conditions": [
+                [
+                    "hug bob under the following circumstances     with Research purpose",
+                    "verb-with-preposition-and-pobj",
+                    41,
+                    53
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 39,
+            "end": 43,
+            "text": "alice may hug bob",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "mayNot",
+            "action_val": "hug",
+            "object_thing_or_party_val": "bob",
+            "conditions": [],
+            "has_conditions": false,
+            "string_id": "clausethree",
+            "start": 56,
+            "end": 61,
+            "text": "alice may not hug bob",
+            "full_sentence": ""
+        },
+        {
+            "party_val": "alice",
+            "modal_verb": "mayNot",
+            "action_val": "hug",
+            "object_thing_or_party_val": "bob",
+            "conditions": [
+                [
+                    "hug bob under the following circumstances     with Commercial purpose",
+                    "verb-with-preposition-and-pobj",
+                    59,
+                    71
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausefive",
+            "start": 56,
+            "end": 61,
+            "text": "alice may not hug bob",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "alice may hug bob",
+                "clausethree",
+                39,
+                43
+            ]
+        ],
+        [
+            [
+                "alice may hug bob",
+                "clausefive",
+                39,
+                43
+            ],
+            [
+                "hug bob under the following circumstances     with Research purpose",
+                "verb-with-preposition-and-pobj",
+                41,
+                53
+            ]
+        ],
+        [
+            [
+                "alice may not hug bob",
+                "clausethree",
+                56,
+                61
+            ]
+        ],
+        [
+            [
+                "alice may not hug bob",
+                "clausefive",
+                56,
+                61
+            ],
+            [
+                "hug bob under the following circumstances     with Commercial purpose",
+                "verb-with-preposition-and-pobj",
+                59,
+                71
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Confis Agreement 1 - Parties   1 . alice . ",
+            "unknown type"
+        ],
+        [
+            "Confis Agreement 1 - Parties   1 . alice . 2 . bob .   2 - Definitions   1 . ",
+            "unknown type"
+        ],
+        [
+            "\" hug 3- Terms   1 . ",
+            "unknown type"
+        ],
+        [
+            "alice may hug bob ",
+            "clauseroot"
+        ],
+        [
+            "alice may hug bob . 2 . alice ",
+            "clauseroot"
+        ],
+        [
+            "alice may hug bob . 2 . alice may hug bob under the following circumstances : - with Research purpose   3 ",
+            "clauseroot"
+        ],
+        [
+            ". ",
+            "unknown type"
+        ],
+        [
+            ". ",
+            "unknown type"
+        ],
+        [
+            "alice may not hug bob under the following circumstances : + with Commercial purpose ",
+            "unknown type"
+        ]
+    ]
+}

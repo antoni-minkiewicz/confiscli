@@ -1,0 +1,88 @@
+{
+    "parties": [
+        {
+            "val": "bob",
+            "named": "bob",
+            "description": " "
+        }
+    ],
+    "actions": [
+        {
+            "val": "eat",
+            "named": "eat",
+            "description": " "
+        }
+    ],
+    "things": [
+        {
+            "val": "cake",
+            "named": "cake",
+            "description": " "
+        }
+    ],
+    "definitions": [],
+    "clauses": [
+        {
+            "party_val": "bob",
+            "modal_verb": "may",
+            "action_val": "eat",
+            "object_thing_or_party_val": "cake",
+            "conditions": [
+                [
+                    "eat cake except under the following circumstances     from            to            inclusive",
+                    "verb-with-preposition-chain-and-pobj",
+                    43,
+                    58
+                ]
+            ],
+            "has_conditions": true,
+            "string_id": "clausetwo",
+            "start": 41,
+            "end": 45,
+            "text": "bob may eat cake",
+            "full_sentence": ""
+        }
+    ],
+    "clause_matcher_output": [
+        [
+            [
+                "bob may eat cake",
+                "clausetwo",
+                41,
+                45
+            ],
+            [
+                "eat cake except under the following circumstances     from            to            inclusive",
+                "verb-with-preposition-chain-and-pobj",
+                43,
+                58
+            ]
+        ]
+    ],
+    "sentences": [
+        [
+            "Confis Agreement 1 - Parties   1 . ana . ",
+            "unknown type"
+        ],
+        [
+            "2 . bob .   2 - Definitions   1 . \" cake \" . ",
+            "unknown type"
+        ],
+        [
+            "2 . \" eat \" . ",
+            "unknown type"
+        ],
+        [
+            "  3 - ",
+            "unknown type"
+        ],
+        [
+            "Terms   1 . ",
+            "unknown type"
+        ],
+        [
+            "bob may eat cake except under the following circumstances : * from 01/05/2022 to 13/04/2023 inclusive ",
+            "clauseroot-circumstance"
+        ]
+    ]
+}
