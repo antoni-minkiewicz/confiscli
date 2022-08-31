@@ -5,7 +5,9 @@ This is a tool that uses rule-based NLP to aid in the translation of natrual lan
 ### Installation
 ```
 pip install -r requirements.txt
+(For efficiency)
 python -m spacy download en_core_web_sm
+(For accuracy - 500mb download)
 python -m spacy download en_core_web_trf
 ```
 
